@@ -1,0 +1,55 @@
+#about{
+  position: relative;
+  margin: 0;
+}
+#aboutTitle{
+  font-size: 3vw;
+  font-family: 'Shrikhand', cursive;
+  text-shadow: white 1px 1px 2px;
+  letter-spacing: 0.2vw;
+}
+#bgAbout{
+  position: absolute;
+  top: -10%;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+#firstLetter{
+  text-shadow: black 0 0 3px;
+  margin-right: 2px;
+}
+#leftTrait{
+  margin-right: 0;
+}
+#presentationText{
+  text-align: left;
+  font-size: 1.1vw;
+  z-index: 999;
+
+}
+#roundCenter{
+  width: 1.5vw;
+  height: 1.5vw;
+  margin: 0;
+}
+#rightTrait{
+  margin-left: 0;
+}
+.rules{
+  font-size: 1.2vw;
+  font-weight: bold;
+}
+#selfie{
+  width: 10vw;
+  float: left;
+  border-radius: 15px;
+}
+#trait{
+  width: 15%;
+  margin: auto;
+}
+
+
+
+
