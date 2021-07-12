@@ -1,7 +1,7 @@
-import {Home, About, Services, Portfolio, Contact} from "./components";
+import {Home, About, Portfolio, Contact} from "./components";
 
 import AOS from "aos";
-import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import { useState } from "react";
 import { useEffect } from "react";
 
@@ -23,10 +23,6 @@ function App(props) {
               <Nav.Link href="" ><i className="fab fa-wordpress"></i> Blog</Nav.Link>
               <Nav.Link onClick={()=>{setComponent(<Portfolio/>)}}><i className="fas fa-briefcase"/> Portfolio</Nav.Link>
               <Nav.Link onClick={()=>{setComponent(<Contact/>)}}><i className="fas fa-address-book"/> Contactez-moi</Nav.Link>
-
-              {/* <NavDropdown title="Plus" id="basic-nav-dropdown">
-                <NavDropdown.Item onClick={()=>setComponent(<Contact/>)}><i className="fas fa-address-book"/> Contactez-moi</NavDropdown.Item>
-              </NavDropdown> */}
             </Nav>
           </Navbar.Collapse>
         </Navbar>
