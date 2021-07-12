@@ -6,7 +6,7 @@ export default function Portfolio(props) {
     return (
         <>
         <br/>
-        <div className="bg-secondary container-fluid d-flex flex-row flex-wrap justify-content-center align-items-center"
+        <div className=" container-fluid d-flex flex-row flex-wrap justify-content-center align-items-center"
         style={{height: "100vh"}}
         data-aos="zoom-out"
         data-aos-easing="ease-out-cubic"
