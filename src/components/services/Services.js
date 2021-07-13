@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Carousel} from 'react-bootstrap'
+import { Carousel } from "react-bootstrap";
 import serviceStyle from "./services.module.scss";
 
 export default class Services extends Component {
@@ -20,8 +20,9 @@ export default class Services extends Component {
                     alt=""
                   />
                   <Carousel.Caption>
-                    <h1 className={serviceStyle.carouselImage}>App &amp; Site Web</h1>
-                    
+                    <h1 className={serviceStyle.carouselImage}>
+                      App &amp; Site Web
+                    </h1>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={5000}>
@@ -30,10 +31,7 @@ export default class Services extends Component {
                     src="images/carousel/app-mobile.jpg"
                     alt="Second slide"
                   />
-                  <Carousel.Caption>
-                    <h1 className={serviceStyle.carouselImage}>Second slide label</h1>
-                    
-                  </Carousel.Caption>
+                  <Carousel.Caption></Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
@@ -41,10 +39,7 @@ export default class Services extends Component {
                     src="images/carousel/copywriting.png"
                     alt="Third slide"
                   />
-                  <Carousel.Caption>
-                    <h1 className={serviceStyle.carouselImage}>Copywriting &amp; Marketing</h1>
-                    
-                  </Carousel.Caption>
+                  <Carousel.Caption></Carousel.Caption>
                 </Carousel.Item>
               </Carousel>
               <br />
@@ -61,25 +56,26 @@ export default class Services extends Component {
           <div className="col-lg-6 col-md-4 col-12 m-auto">
             <div className={serviceStyle.services}>
               <div className={serviceStyle.card}>
-                <h5 className="h3">Application Web</h5>
+                <h3 className={serviceStyle.titleCard}>Application Web</h3>
+                En informatique, une application web est une application
+                manipulable directement en ligne grâce à un navigateur web et
+                qui ne nécessite donc pas d'installation sur les machines
+                clientes, contrairement aux applications mobiles.
+              </div>
+              <div className={serviceStyle.card}>
+                <h3 className={serviceStyle.titleCard}>Application Mobile</h3>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
                 numquam quidem illum maiores delectus rem adipisci dolorum at
                 vitae?
               </div>
               <div className={serviceStyle.card}>
-                <h5 className="h3">Application Mobile</h5>
+                <h3 className={serviceStyle.titleCard}>Copywriting</h3>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
                 numquam quidem illum maiores delectus rem adipisci dolorum at
                 vitae?
               </div>
               <div className={serviceStyle.card}>
-                <h5 className="h3">Copywriting</h5>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
-                numquam quidem illum maiores delectus rem adipisci dolorum at
-                vitae?
-              </div>
-              <div className={serviceStyle.card}>
-                <h5 className="h3">marketing social</h5>
+                <h3 className={serviceStyle.titleCard}>marketing social</h3>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
                 numquam quidem illum maiores delectus rem adipisci dolorum at
                 vitae?
