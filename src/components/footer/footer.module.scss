@@ -1,0 +1,83 @@
+.container{
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  background: #3a3a2ad3;
+  z-index: 9999;
+}
+.copyright{
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+.facebook{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+
+}
+.link{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+  font-size: 3rem;
+  margin-top: 10px;
+  padding-top: 30px;
+}
+.twitter{
+  color: #00acee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+
+}
+.instagram{
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  border-radius: 14px;
+  color: #fff;
+  font-size: 3rem;
+  line-height: 1%;
+  vertical-align: middle;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+.linkedin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+
+}
+.github{
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+
+}

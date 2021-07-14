@@ -1,7 +1,10 @@
+import React from 'react';
+import styleAbout from './BgAbout.module.scss'
+
 function AboutBg(props) {
     return (
-      <svg id="bgAbout"
-        viewBox="0 0 1920 1080"
+      <svg id="bgAbout" className={styleAbout.bg}
+        viewBox="0 0 1920 1015"
         fillRule="evenodd"
         clipRule="evenodd"
         strokeLinejoin="round"

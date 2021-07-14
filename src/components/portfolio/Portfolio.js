@@ -1,9 +1,9 @@
-import React, {useState} from 'react'
+import React from 'react'
 import BgAbout from '../../componenttSVG/BgAbout'
 import style from './portfolio.module.scss'
+import {Footer} from "../footer/Footer";
 
 export default function Portfolio(props) {
-    const[data, setData] = useState()
 
     let item;
     let globalContainer;
@@ -36,7 +36,7 @@ export default function Portfolio(props) {
                  data-aos-duration="2000"
             >
                 <BgAbout/>
-                <div onMouseEnter={()=> showData("Voici un pure projet d'integration, cela signifie la reproduction à l'identique d'une maquette réalisée par un designer, en site internet.Ceci est le travail initial d'un développeur web !")}
+                <div onMouseEnter={()=> showData("Voici un pure projet d'integration web, cela signifie la reproduction à l'identique d'une maquette réalisée par un designer. Ceci est le travail de base de tout développeurs !")}
                      onMouseLeave={removeData}
                      id={'cardOne'}
                      className=" card col-lg-3 col-md-6 col-12 m-1 rounded-3"
@@ -58,7 +58,7 @@ export default function Portfolio(props) {
                              alt="agency site"/>
                     </a>
                 </div>
-                <div onMouseEnter={()=> showData("L'objectif de ce projet est la réalisation d'une SPA pour single page application.Le principe est assez simple en soit, le but comme son nom l'indique, est de créer une appliction monopage ou tout se deroule sur celle ci sans jamais avoir à en changer.Sorte  Comme une application native sur votre ordinateur ou mobile!")}
+                <div onMouseEnter={()=> showData("L'objectif de celui-ci, est la réalisation d'une SPA pour single page application. Le principe est assez simple en soit, le but étant comme son nom l'indique, de créer une appliction monopage ou tout le code est chargé à la première ouverture du site afin que tout se deroule sur celle ci sans jamais avoir à en changer. Comme une application native sur votre ordinateur mais à travers un navigateur web ou mobile!")}
                      onMouseLeave={removeData}
                     className="card col-lg-3 col-md-6 col-12 m-1 rounded-3">
                     <div
@@ -72,7 +72,7 @@ export default function Portfolio(props) {
                     <a href="https://bsao17.github.io/Project3_OC/" target="blank"><img
                         src="images/sites/bikeRenting.jpg" className="w-100" alt="agency site"/></a>
                 </div>
-                <div onMouseEnter={()=> showData("Voici la création du site de l'office de tourisme de la ville d'Ireki en Alaska, ne la cherchez pas car elle n'existe pas, le but étant ici d'utiliser un CMS (content management system), donc un système de gestion de contenu pour accélérer et faciliter la création. Attenntion tout de même à l'apparente simplicité trompeuse de ce genre d'outils, entre autre wordpress dans le cas présent")}
+                <div onMouseEnter={()=> showData("Ici, la création du site de l'office de tourisme de la ville d'Ireki en Alaska, ne la cherchez pas car elle n'existe pas, le but étant ici d'utiliser un CMS (content management system), donc un système de gestion de contenu pour accélérer et faciliter la création. Attenntion tout de même à l'apparente simplicité trompeuse de ce genre d'outils, entre autre wordpress dans le cas présent")}
                      onMouseLeave={removeData}
                     className="card col-lg-3 col-md-6 col-12 m-1 rounded-3">
                     <div
@@ -90,7 +90,7 @@ export default function Portfolio(props) {
                         alt="agency site"/>
                     </a>
                 </div>
-                <div onMouseEnter={()=> showData("Ici vous découvrirez un projet en pure PHP et mySQL. Ce site est celui de l'écrivain Jean Forteroche, qui écrit et distribue son nouveau livre par l'intermédiaire de son blog")}
+                <div onMouseEnter={()=> showData("Voici un projet en langage PHP pour le développement du site et mySQL pour la gestion de la base de données. Ce site est celui de l'écrivain Jean Forteroche, qui écrit et distribue son nouveau livre au fur et à mesure par l'intermédiaire de son blog")}
                      onMouseLeave={removeData}
                     className="card col-lg-3 col-md-6 col-12 m-1 rounded-3">
                     <div
@@ -105,7 +105,7 @@ export default function Portfolio(props) {
                         src="images/sites/forteroche.jpg" className="w-100" alt="agency site"/>
                     </a>
                 </div>
-                <div onMouseEnter={()=> showData("Celui ci, est un projet personnel.Le titre est assez évocateur et claire, il vise à tordre le coup aux idées reçus, comme quoi les développeurs juniors seraient incapables de mener à bien un projet, en les exposant sur ce blog")}
+                <div onMouseEnter={()=> showData("Et celui ci, est mon projet personnel. Le titre en soit est assez claire ! Il vise à tordre le coup aux idées reçus, comme quoi les développeurs juniors (donc débutants) seraient incapables de créer ou de mener à bien un projet en autonomie, en exposant leurs travaux sur ce blog")}
                      onMouseLeave={removeData}
                     className="card col-lg-3 col-md-6 col-12 m-1 rounded-3">
                     <div
@@ -122,6 +122,7 @@ export default function Portfolio(props) {
                     </a>
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

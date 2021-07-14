@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Particles from "react-particles-js";
 import Services from "../services/Services";
 import styleParticles from './particles.module.scss'
+import {Footer} from "../footer/Footer";
 
 export default function Home(props) {
   const [img] = useState("images/yellowWhite.png");
@@ -64,6 +65,7 @@ export default function Home(props) {
       <br/>
       <br/>
       <Services/>
+      <Footer/>
     </>
   );
 }

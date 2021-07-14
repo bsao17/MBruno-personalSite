@@ -1,6 +1,7 @@
 import React from "react";
 import Details from "./Details";
 import Map from "./Map";
+import {Footer} from "../footer/Footer";
 
 export default function Contact() {
 
@@ -70,6 +71,8 @@ export default function Contact() {
       <div className={"container"}>
         <Map />
       </div>
+        <br/>
+        <Footer/>
     </>
   );
 }

@@ -43,7 +43,7 @@ export default function TextSuite() {
                 Grâce à son ergonommie, sa rapidité, son confort d'utilisation et qu'on appel UX pour
                 User Experience (l’expérience utilisateur), <br />
                 Grâce aux technologies utilisées pour le développer, qui peuvent permettre
-                d'optimiser le SEO (Search Engine Optimisation), et donc déterminer
+                d'optimiser le SEO (Search Engine Optimisation), et donc d'optimiser
                 votre position lors des résultats d'une recherche ou vous  rendre invisible et donc inexistant.
                 <br />
                 <br />

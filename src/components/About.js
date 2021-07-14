@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import BgAbout from "../componenttSVG/BgAbout";
 import "aos/dist/aos.css";
 import TextSuite from "./TextSuite";
+import {Footer} from "./footer/Footer";
 
 export default function About() {
   const [show, setShow] = useState(false)
@@ -68,10 +69,11 @@ export default function About() {
               d’entendre ou lire,
               <br />
               <br />
-              Heureusement pour moi, je ne suis ni gourou ou médium, 
+              Heureusement pour moi, je ne suis ni gourou, ni médium
               mais un développeur informatique spécialisé
               web, qui connaît plutôt pas mal la communication digitale sur les
-              réseaux sociaux (Facebook, Instagram, Twitch etc…).
+              réseaux sociaux (Facebook, Instagram, Twitch etc…) et qui
+              manipule les mots plutôt correctement.
               <br />
               <br /> Aujourd’hui, force est de constater, que si vous voulez que
               votre entreprise ou votre commerce se développe, s’affranchisse des
@@ -111,6 +113,7 @@ export default function About() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
