@@ -2,6 +2,7 @@ import React from "react";
 import Details from "./Details";
 import Map from "./Map";
 import {Footer} from "../footer/Footer";
+import TitlePage from "../TitlePage";
 
 export default function Contact() {
 
@@ -10,8 +11,7 @@ export default function Contact() {
       <br />
       <br />
       <br />
-      <br />
-
+        <TitlePage title={"Contact"}/>
       <div
         className="d-flex align-items-center justify-content-center flex-wrap"
         data-aos="zoom-in"

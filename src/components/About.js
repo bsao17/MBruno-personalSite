@@ -3,42 +3,22 @@ import BgAbout from "../componenttSVG/BgAbout";
 import "aos/dist/aos.css";
 import TextSuite from "./TextSuite";
 import {Footer} from "./footer/Footer";
+import TitlePage from "./TitlePage";
 
 export default function About() {
   const [show, setShow] = useState(false)
   const[button, setButton] = useState(true)
 
   return (
-    <div id="about" 
+    <div id="about"
       data-aos="flip-up"
       data-aos-easing="ease-out-cubic"
-      data-aos-duration="2000"
-    >
+      data-aos-duration="2000">
       <br className={"spacing"} />
       <br className={"spacing"} />
       <br className={"spacing"} />
       <div>
-        <h4 className={"text-center text-dark"} id={"aboutTitle"}>
-          A propos
-        </h4>
-        <div
-          className="d-flex align-items-center justify-content-center"
-          id={"trait"}
-        >
-          <div
-            id={"leftTrait"}
-            className={"rounded-pill border border-4 w-50"}
-          />
-          <div
-            id={"roundCenter"}
-            className={"rounded-circle border p-2 bg-dark mx-auto"}
-          />
-          <div
-            id={"rightTrait"}
-            className={"rounded-pill border border-4 w-50"}
-          />
-        </div>
-        <br className={"spacing"} />
+        <TitlePage title={"A propos"}/>
         <div
           className={"container p-3 rounded bg-light"}
           id={"presentationText"}

@@ -2,6 +2,7 @@ import React from 'react'
 import BgAbout from '../../componenttSVG/BgAbout'
 import style from './portfolio.module.scss'
 import {Footer} from "../footer/Footer";
+import TitlePage from "../TitlePage";
 
 export default function Portfolio(props) {
 
@@ -27,13 +28,17 @@ export default function Portfolio(props) {
     return (
         <>
             <br/>
+            <br/>
+            <br/>
+                <BgAbout/>
+                <TitlePage title={"Portfolio"}/>
             <div className=" container-fluid d-flex flex-row flex-wrap justify-content-center align-items-center"
                  id={"globalContainer"}
                  data-aos="zoom-out"
                  data-aos-easing="ease-out-cubic"
                  data-aos-duration="2000"
             >
-                <BgAbout/>
+
 
                 <div
                     onMouseEnter={() => showData("Voici un pure projet d'integration web, cela signifie la reproduction à l'identique d'une maquette réalisée par un designer. Ceci est le travail de base de tout développeurs !")}
