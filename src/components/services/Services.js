@@ -43,12 +43,11 @@ export default class Services extends Component {
               </Carousel>
               <br />
               <div className={serviceStyle.text}>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
-                numquam quidem illum maiores delectus rem adipisci dolorum at
-                vitae, laborum quam quibusdam eum dignissimos, in officiis saepe
-                esse voluptate? Voluptatum dicta ad, corrupti, nam laborum
-                fugiat sint fugit enim vitae ullam dolor? Commodi debitis
-                sapiente repellat perspiciatis impedit expedita dolores.
+                <span className={serviceStyle.firstLetter}>J</span>e vous présente ici, les services qui me sont les plus couramment demandés.
+                Cette liste est non exhaustive, donc si votre projet ne correspond pas ou n'entre pas entièrement dans le cadre de ce qui est cité,
+                c'est absolument normal.
+                Je suis avant tout un développeur, donc toutes les idées nouvelles et projets divers seront les bienvenues,
+                et abordés comme des challenges et avec tout le sérieux qu'ils méritent !
               </div>
             </div>
           </div>
@@ -56,14 +55,14 @@ export default class Services extends Component {
             <div className={serviceStyle.services}>
               <div className={serviceStyle.card}>
                 <h3 className={serviceStyle.titleCard}>Application Web</h3>
-                En informatique, une application web est une application
+                <span className={serviceStyle.firstLetter}>E</span>n informatique, une application web est une application
                 manipulable directement en ligne grâce à un navigateur web et
                 qui ne nécessite donc pas d'installation sur les machines
                 clientes, contrairement aux applications mobiles.
               </div>
               <div className={serviceStyle.card}>
                 <h3 className={serviceStyle.titleCard}>Application Mobile</h3>
-                Une application mobile est un logiciel applicatif développé pour
+                <span className={serviceStyle.firstLetter}>U</span>ne application mobile est un logiciel applicatif développé pour
                 un appareil électronique mobile, tel qu'un assistant personnel,
                 un téléphone portable, un smartphone, un baladeur numérique, une
                 tablette tactile, ou encore certains ordinateurs fonctionnant
@@ -71,7 +70,7 @@ export default class Services extends Component {
               </div>
               <div className={serviceStyle.card}>
                 <h3 className={serviceStyle.titleCard}>Copywriting</h3>
-                Le copywriting est l'acte ou l'occupation d'écrire du texte à
+                <span className={serviceStyle.firstLetter}>L</span>e copywriting est l'acte ou l'occupation d'écrire du texte à
                 des fins de publicité ou d'autres formes de marketing. Le
                 produit, appelé copie ou copie de vente, est un contenu écrit
                 qui vise à accroître la notoriété de la marque et finalement à
@@ -80,7 +79,7 @@ export default class Services extends Component {
               </div>
               <div className={serviceStyle.card}>
                 <h3 className={serviceStyle.titleCard}>marketing social</h3>
-                Une clientèle mieux ciblée. Le marketing des médias sociaux peut
+                <span className={serviceStyle.firstLetter}>L</span>e marketing des médias sociaux peut
                 vous aider à bâtir un réseau rempli de clients ou d'acheteurs
                 potentiels qui s'intéressent à votre entreprise et ce que vous
                 avez à offrir. Ces groupes d'acheteurs ou de clients potentiels

@@ -3,6 +3,7 @@ import Particles from "react-particles-js";
 import Services from "../services/Services";
 import styleParticles from './particles.module.scss'
 import {Footer} from "../footer/Footer";
+import TitlePage from "../TitlePage";
 
 export default function Home(props) {
   const [img] = useState("images/yellowWhite.png");
@@ -64,6 +65,7 @@ export default function Home(props) {
       <br/>
       <br/>
       <br/>
+        <TitlePage title={"Services"}/>
       <Services/>
       <Footer/>
     </>
