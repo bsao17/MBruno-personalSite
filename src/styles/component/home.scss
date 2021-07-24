@@ -1,4 +1,14 @@
 #home{
+    @media (max-width: 992px){
+        .title{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;	
+            }
+        }
         #background{
             width: 100%;
             height: 100%;
@@ -16,6 +26,8 @@
             text-shadow: white 1px 1px 2px;
             margin: 0%;
             padding: 0%;
+            @media (max-width: 992px){
+                font-size: 250%;            }
         }
         #lastname{
             font-size: 7vw;
@@ -24,17 +36,27 @@
             text-shadow: white 1px 1px 2px;
             margin: 0% 0% 5% 0%;
             padding: 0%;
+            @media (max-width: 992px ){
+                font-size: 250%;
+            }
         }
         #jingle{
             font-size: 2.5vw ;
             font-family: 'Shrikhand', cursive;
             text-shadow: white 1px 1px 2px;
             letter-spacing: 0.1vw;
+            @media (max-width: 992px){
+                font-size: 100%;
+            }
         }
         #ambition{
             font-size: 3vw;
             letter-spacing: 3px;
             text-shadow: black 0 0 0.2vw;
+            @media (max-width: 992px){
+                font-size: 100%;
+                text-shadow: black 0 0 1vw;
+            }
         }
         #activities{
             margin-bottom: 20%;

@@ -9,6 +9,7 @@
     border-radius: 10px;
     background-color: gainsboro;
     margin: 2%;
+    overflow: hidden;
 }
 .firstLetter{
     font-size: 1.5rem;
@@ -31,9 +32,6 @@
 .title{
     font-size: 2.5rem;
 }
-.titleCard{
-    // text-shadow: white 0 0 10px;
-}
 .text{
     text-align: justify;
 }
@@ -44,17 +42,16 @@
     border-radius: 10px;
     box-shadow: #EFDA5D 0 0 5px, black 1px 1px 5px ;
     margin: 4%;
-    width: 50%;
+    width: 100%;
     height: 150px;
     overflow: hidden;
     text-align: justify;
     z-index: 2;
 }
 .card:hover{
-    background-color:#EFDA5D ;
     width: 100%;
     color: grey;
-    text-shadow: whitesmoke 0 0 5px;
+    box-shadow: #efd95dd7 0 0 0 .4em;
     transition: 0.7s;
     overflow: auto;
 }

@@ -1,4 +1,5 @@
 import {Home, About, Portfolio, Contact} from "./components";
+import Services from "./components/services/Services.js";
 
 import AOS from "aos";
 import { Navbar, Nav } from "react-bootstrap";
@@ -15,13 +16,14 @@ function App(props) {
       <div>
         <Navbar expand="lg" id="navBar" >
           <Navbar.Brand href="#"><span id="navLogo">MB</span></Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggle" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
+            <Nav className="navlink mr-auto">
               <Nav.Link onClick={()=>{setComponent(<Home/>)}}><i className="fas fa-home"/> Accueil</Nav.Link>
               <Nav.Link onClick={()=>{setComponent(<About/>)}}><i className="far fa-address-card"/> A propos</Nav.Link>
-              <Nav.Link href="" ><i className="fab fa-wordpress"></i> Blog</Nav.Link>
+              <Nav.Link onClick={()=>{setComponent(<Services/>)}}><i className="fas fa-briefcase"/> Services</Nav.Link>
               <Nav.Link onClick={()=>{setComponent(<Portfolio/>)}}><i className="fas fa-briefcase"/> Portfolio</Nav.Link>
+              <Nav.Link href="" ><i className="fab fa-wordpress"></i> Blog</Nav.Link>
               <Nav.Link onClick={()=>{setComponent(<Contact/>)}}><i className="fas fa-address-book"/> Contactez-moi</Nav.Link>
             </Nav>
           </Navbar.Collapse>

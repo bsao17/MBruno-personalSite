@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="919d707c-7a95-42ed-b756-fd23a096197c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/logo/mb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MBruno-personalSite-main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MBruno-personalSite-main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TitlePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TitlePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/particles.module.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/services/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/Services.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/services/services.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/services.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/app.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/app.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/component/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/component/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/component/navBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/component/navBar.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +40,7 @@
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -75,8 +86,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -90,7 +101,8 @@
       <updated>1626172412540</updated>
       <workItem from="1626172414248" duration="18576000" />
       <workItem from="1626374999998" duration="11082000" />
-      <workItem from="1626521059539" duration="642000" />
+      <workItem from="1626521059539" duration="1314000" />
+      <workItem from="1627060580581" duration="2929000" />
     </task>
     <task id="LOCAL-00001" summary="update Portfolio.js, add portfolio.module.scss and modale with descriptions">
       <created>1626199485618</created>
@@ -113,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626415488848</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update Services.js">
+      <created>1626537390560</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1626537390560</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +143,7 @@
     <MESSAGE value="update Portfolio.js, add portfolio.module.scss and modale with descriptions" />
     <MESSAGE value="Working on portofolio responsive" />
     <MESSAGE value="Add title for each page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add title for each page" />
+    <MESSAGE value="Update Services.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Services.js" />
   </component>
 </project>

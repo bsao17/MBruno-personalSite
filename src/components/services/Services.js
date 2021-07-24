@@ -1,10 +1,17 @@
 import React, { Component } from "react";
 import { Carousel } from "react-bootstrap";
+import { Footer } from "../footer/Footer";
+import TitlePage from "../TitlePage";
 import serviceStyle from "./services.module.scss";
 
 export default class Services extends Component {
   render() {
     return (
+      <>
+        <br/>
+        <br/>
+        <br/>
+        <TitlePage title='Services'/>
       <div className={serviceStyle.containerAll}>
         <div className="row w-100 m-auto">
           <div className="col-lg-6 col-md-6 col-12 p-5">
@@ -89,6 +96,8 @@ export default class Services extends Component {
           </div>
         </div>
       </div>
+        <Footer/>
+      </>
     );
   }
 }
