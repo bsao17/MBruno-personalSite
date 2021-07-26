@@ -23,13 +23,12 @@ function App(props) {
               <Nav.Link onClick={()=>{setComponent(<About/>)}}><i className="far fa-address-card"/> A propos</Nav.Link>
               <Nav.Link onClick={()=>{setComponent(<Services/>)}}><i className="fas fa-briefcase"/> Services</Nav.Link>
               <Nav.Link onClick={()=>{setComponent(<Portfolio/>)}}><i className="fas fa-briefcase"/> Portfolio</Nav.Link>
-              <Nav.Link href="" ><i className="fab fa-wordpress"></i> Blog</Nav.Link>
+              <Nav.Link href="" ><i className="fab fa-wordpress"/> Blog</Nav.Link>
               <Nav.Link onClick={()=>{setComponent(<Contact/>)}}><i className="fas fa-address-book"/> Contactez-moi</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
       </div>
-
       <div>
         {component}
       </div>

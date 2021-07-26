@@ -8,11 +8,11 @@ export default function Details() {
         className="col-md-3 mx-2 card card-body text-center rounded-pill border-0"
       >
         <h1>
-          <i className="fas fa-envelope-open-text"></i>
+          <i className="fas fa-envelope-open-text"/>
         </h1>
         <p>
           Contact par mail à :{" "}
-          <a href="mailto:meh.bruno@yahoo.com">meh.bruno@yahoo.com</a>
+          <a href="mailto:contact@mehddebbruno.com">contact@mehddebbruno.com</a>
         </p>
         <p>Ou formulaire ci-dessous</p>
       </div>
@@ -22,7 +22,7 @@ export default function Details() {
         className="col-md-3 mx-2 card card-body text-center rounded-pill border-0"
       >
         <h1>
-          <i className="fas fa-phone"></i>
+          <i className="fas fa-phone"/>
         </h1>
         <p>
           Contact par téléphone au :{" "}
@@ -38,7 +38,7 @@ export default function Details() {
         className="col-md-3 mx-2 card card-body text-center rounded-pill border-0"
       >
         <h1>
-          <i className="fab fa-facebook"></i>
+          <i className="fab fa-facebook"/>
         </h1>
         <p>Ou visiter ma page Facebook en cliquant :</p>
         <a

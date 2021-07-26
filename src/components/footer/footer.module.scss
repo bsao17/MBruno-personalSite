@@ -30,8 +30,9 @@
     display: none;
   }
 }
-.link{
+.socialLink{
   display: flex;
+
   align-items: center;
   justify-content: space-evenly;
   text-decoration: none;
@@ -43,6 +44,16 @@
   border-radius: 15px;
   width: 6em;
   margin-top: 1%;
+}
+.mailto{
+  text-decoration: none;
+  color: white;
+}
+.mailto:hover{
+  color: #19BAD8;
+}
+.mailto:active{
+  color: #efda5d;
 }
 .twitter{
   color: #00acee;

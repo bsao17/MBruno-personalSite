@@ -15,14 +15,20 @@ export const Footer = () => {
                     <div className="text-center text-light pt-3">
                         <div className="fw-bold ">mehddebbruno.com <br/> <code className="text-info fw-light">freelance-developer</code>
                         </div>
-                        <div><span className="fw-bold text-decoration-underline">Email</span> : contact@mehddebbruno.com</div>
+                        <div>
+                            <span
+                                className="fw-bold text-decoration-underline">Email
+                            </span> : <a
+                                className={styleFooter.mailto}
+                                href="mailto:contact@mehddebbruno.com">contact@mehddebbruno.com</a>
+                        </div>
                         <div><span className="fw-bold text-decoration-underline">Phone</span> : +33(0)7 52 07 30 25</div>
                     </div>
 
                 </div>
 
 {/* Row links social network*/}
-                <div className={styleFooter.link}>
+                <div className={styleFooter.socialLink}>
                     <a href="https://www.facebook.com/devwebdino" className={styleFooter.facebook}><i
                         className="fab fa-facebook-square"/></a>
                     <a href="https://www.instagram.com" className={styleFooter.instagram}><i
