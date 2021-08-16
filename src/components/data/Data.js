@@ -9,7 +9,7 @@ export default [{
     img: "images/sites/ireki.jpg",
     link: "",
     language: "CMS WORDPRESS",
-    description: "Voici la création du site de l'office de tourisme de la ville d'Ireki en Alaska, ne la cherchez pas car elle n'existe pas, le but étant ici d'utiliser un CMS (content management system), donc un système de gestion de contenu pour accélérer et faciliter la création. \nAttenntion tout de même à l'apparente simplicité trompeuse de ce genre d'outils, entre autre wordpress dans le cas présent"
+    description: "Voici la création du site de l'office de tourisme de la ville d'Ireki en Alaska, ne la cherchez pas car elle n'existe pas, le but étant ici d'utiliser un CMS (content management system), donc un système de gestion de contenu pour accélérer et faciliter la création. Attenntion tout de même à l'apparente simplicité trompeuse de ce genre d'outils, entre autre wordpress dans le cas présent"
 },{
     name: "Bike Renting",
     img: "images/sites/bikeRenting.jpg",

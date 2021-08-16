@@ -11,10 +11,10 @@ export default function Details() {
           <i className="fas fa-envelope-open-text"/>
         </h1>
         <p>
-          Contact par mail à :{" "}
-          <a href="mailto:contact@mehddebbruno.com">contact@mehddebbruno.com</a>
+          <span className="bg-success fw-bold p-1 rounded-pill">
+            <a href="mailto:contact@mehddebbruno.com" style={{textDecoration: "none", fontSize: "1.2rem",color: "white", fontWeight: "bold"}} >contact@mehddebbruno.com</a>
+          </span>
         </p>
-        <p>Ou formulaire ci-dessous</p>
       </div>
 
       <div
@@ -25,12 +25,10 @@ export default function Details() {
           <i className="fas fa-phone"/>
         </h1>
         <p>
-          Contact par téléphone au :{" "}
-          <span className="text-light bg-success rounded-pill px-2 ">
+          <span className="d-block w-75 m-auto text-light bg-success rounded-pill px-2 " style={{fontSize: "1.2rem", fontWeight: "bold"}}>
             +33 (0)7 52 07 30 25
           </span>
         </p>
-        <p>Ligne en cours d'installation</p>
       </div>
 
       <div
@@ -40,13 +38,11 @@ export default function Details() {
         <h1>
           <i className="fab fa-facebook"/>
         </h1>
-        <p>Ou visiter ma page Facebook en cliquant :</p>
-        <a
-          className="bg-primary w-25 m-auto rounded-pill"
-          href="https://www.facebook.com/devwebdino"
-        >
-          <i className="fab fa-facebook text-light"> ici</i>
-        </a>
+        <span className="d-block w-75 m-auto text-light bg-primary rounded-pill " style={{fontSize: "1.2rem", fontWeight: "bold"}}>
+            <a href="https://www.facebook.com/devwebdino">
+              <i className="fab fa-facebook text-light fw-bold"> ici</i>
+            </a>
+          </span>
       </div>
     </div>
   );

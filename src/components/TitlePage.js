@@ -4,9 +4,9 @@ import React from 'react';
 function TitlePage(props) {
     return (
         <div>
-            <h4 className={"text-center text-dark"} id={"aboutTitle"}>
+            <div className={"text-center text-dark"} id={"aboutTitle"}>
                 {props.title}
-            </h4>
+            </div>
             <div
                 className="d-flex align-items-center justify-content-center"
                 id={"trait"}

@@ -7,7 +7,7 @@ export const Footer = () => {
             <div className={styleFooter.container}>
 
 {/* 3 Columns */}
-                <div class="row row-cols-2">
+                <div className="row row-cols-2">
                     <div className="d-flex flex-column justify-content-center align-items-center text-light pt-3">
                         <img src="images/logo/mb.png" className={styleFooter.logo} alt="Logo Mehddeb Bruno"/>
                         <code className="text-info ">v1.0.1</code>
