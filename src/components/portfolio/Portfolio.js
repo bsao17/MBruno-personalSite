@@ -85,7 +85,7 @@ export default function Portfolio(props) {
                         className="
                         d-flex 
                         flex-column  
-                        justify-content-center  mx-2
+                        justify-content-center  mx-25
                         align-items-center">
                         Ireki
                     </div>

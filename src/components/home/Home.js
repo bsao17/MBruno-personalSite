@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Particles from "react-particles-js";
 import { Footer } from "../footer/Footer";
 
+
 export default function Home(props) {
   const [img] = useState("images/yellowWhite.png");
   return (
@@ -38,9 +39,9 @@ export default function Home(props) {
           <p id="lastname" className={"lastname"}>MEHDDEB</p>
           <div id="jingle" className="jingle text-dark">
             <span id="activities">
-              Design,
+              Copywriting,
               <br />
-              Copywriting, <br />
+              Optimisation SEO, <br />
               Développement Web,
             </span>
             <hr className="w-75" />
@@ -53,7 +54,7 @@ export default function Home(props) {
         </div>
         <img
           src={img}
-          alt="background"
+          alt="Création de sites internets et d'applications mobiles en Charente maritime et Nouvelle Aqquitaine"
           id="background"
           className="d-xl-block d-lg-block d-none"
         />

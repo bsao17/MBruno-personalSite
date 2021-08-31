@@ -14,10 +14,10 @@ function App(props) {
   return (
     <div id="App" className={"AppContainer"}>
       <div>
-        <Navbar expand="lg" id="navBar" >
+        <Navbar expand="lg" id="navBar" className={"w-100"} >
           <Navbar.Brand href="#"><span id="navLogo">MB</span></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggle" />
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Collapse id="basic-navbar-nav" className={"w-25"}>
             <Nav className="navlink mr-auto">
               <Nav.Link onClick={()=>{setComponent(<Home/>)}}><i className="fas fa-home"/> Accueil</Nav.Link>
               <Nav.Link onClick={()=>{setComponent(<About/>)}}><i className="far fa-address-card"/> A propos</Nav.Link>

@@ -1,9 +1,9 @@
 import React from 'react';
-import styleAbout from './BgAbout.module.scss'
+import styleBgAbout from './BgAbout.module.scss'
 
 function AboutBg(props) {
     return (
-      <svg id="bgAbout" className={styleAbout.bg}
+      <svg id={styleBgAbout.bgAbout} className={styleBgAbout.bg}
         viewBox="0 0 1920 1015"
         fillRule="evenodd"
         clipRule="evenodd"

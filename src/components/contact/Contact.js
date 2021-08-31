@@ -27,8 +27,7 @@ export default function Contact() {
             action="https://api.web3forms.com/submit"
             method="POST"
           >
-            <h1>Contactez moi</h1>
-            <span>Laissez moi vos coordonnées</span>
+            <h2 className={"text-center"}>Contactez-moi</h2>
 
             <form action="https://api.web3forms.com/submit" method="POST" className="d-flex flex-column w-100 form-group">
               <input
@@ -37,18 +36,18 @@ export default function Contact() {
                 value={window.env.API_MAIL}
               />
 
-              <input type="text" name="lastname" placeholder="Nom*" className="form-control m-3" required />
-              <input type="text" name="firstname" placeholder="Prénom*" className="form-control m-3" required />
-              <input type="email" name="email" placeholder="Email*" className="form-control m-3 " required />
-              <input type="text" name="title" placeholder="Titre" className="form-control m-3" required />
-              <textarea name="message" placeholder="Message" className="form-control m-3" required></textarea>
+              <input type="text" name="lastname" placeholder="Nom*" className="form-control m-1" required />
+              <input type="text" name="firstname" placeholder="Prénom*" className="form-control m-1" required />
+              <input type="email" name="email" placeholder="Email*" className="form-control m-1 " required />
+              <input type="text" name="title" placeholder="Titre" className="form-control m-1" required />
+              <textarea name="message" placeholder="Message" className="form-control m-1" required/>
               <input
                 type="hidden"
                 name="redirect"
                 value="https://web3forms.com/success"
               />
 
-              <button type="submit" className="btn btn-sm btn-success m-3 w-25 ">Envoyer</button>
+              <input type="submit" value={"Envoyer"} className="btn btn-sm btn-success m-3 "/>
             </form>
           </section>
         </div>

@@ -50,11 +50,10 @@ export default class Services extends Component {
               </Carousel>
               <br />
               <div className={serviceStyle.text}>
-                <span className={serviceStyle.firstLetter}>J</span>e vous présente ici, les services qui me sont les plus couramment demandés.
-                Cette liste est non exhaustive, donc si votre projet ne correspond pas ou n'entre pas entièrement dans le cadre de ce qui est cité,
-                c'est absolument normal.
-                Je suis avant tout un développeur, donc toutes les idées nouvelles et projets divers seront les bienvenues,
-                et abordés comme des challenges et avec tout le sérieux qu'ils méritent !
+                <span className={serviceStyle.firstLetter}>J</span>e vous présente ici, les services et prestations que je propose
+                pour vous permettre de développer votre activité, augmenter votre chiffre d'affaires, développer ou optimiser un site ou une application.
+                Je peux prendre en charge votre projet du développement jusqu’au plan marketing et au lancement.
+                N’hésitez pas à me contacter pour en discuter et voir ensemble ce qu’il est possible de faire pour vous.
               </div>
             </div>
           </div>
@@ -77,15 +76,14 @@ export default class Services extends Component {
               </div>
               <div className={serviceStyle.card}>
                 <h3 className={serviceStyle.titleCard}>Copywriting</h3>
-                <span className={serviceStyle.firstLetter}>L</span>e copywriting est l'acte ou l'occupation d'écrire du texte à
-                des fins de publicité ou d'autres formes de marketing. Le
-                produit, appelé copie ou copie de vente, est un contenu écrit
-                qui vise à accroître la notoriété de la marque et finalement à
-                persuader une personne ou un groupe de prendre une action
-                particulière.
+                <span className={serviceStyle.firstLetter}>L</span>e copywriting est l'acte d'écrire du texte afin de
+                pousser le lecteur à passer l'action. Un achat, un abonnement, une inscription, toutes les actions que
+                vous souhaitez mettre en place peuvent être optimisées et générer, par l'écriture d'une page de vente,
+                d'un email commercial, d'une newsletter, des résultats bien au-delà de vos espérances.
+                C'est encore aujourd'hui l'outil marketing le pluis puissant, quand-il est fait correctement bien sûr.
               </div>
               <div className={serviceStyle.card}>
-                <h3 className={serviceStyle.titleCard}>marketing social</h3>
+                <h3 className={serviceStyle.titleCard}>marketing de contenus et de réseau</h3>
                 <span className={serviceStyle.firstLetter}>L</span>e marketing des médias sociaux peut
                 vous aider à bâtir un réseau rempli de clients ou d'acheteurs
                 potentiels qui s'intéressent à votre entreprise et ce que vous
