@@ -65,7 +65,7 @@ export default function TextSuite() {
                 <br />
                 Ne serait-ce pas malheureux ? <br />
                 <br />
-                <span className="rules">Mais rien n’est inéluctable,<br/></span><br/>En créant la vitrine qui exploitera
+                <span className="rules h3 fw-bold">Mais rien n’est inéluctable,<br/></span><br/>En créant la vitrine qui exploitera
                 au mieux l’écosystème du web, son fonctionnement et ses règles, vous
               ne serez plus un simple utilisateur mais bel et bien,<br/><strong>un acteur</strong> qui sait se
               faire entendre et se faire <strong>remarquer</strong>, avec pour seul et unique objectif de donner

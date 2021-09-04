@@ -38,7 +38,7 @@ export default function Home(props) {
           <p id="firstname">Bruno</p>
           <p id="lastname" className={"lastname"}>MEHDDEB</p>
           <div id="jingle" className="jingle text-dark">
-            <span id="activities">
+            <span id="activities" className={"card-xs"}>
               Copywriting,
               <br />
               Optimisation SEO, <br />

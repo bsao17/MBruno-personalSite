@@ -14,7 +14,7 @@ function App(props) {
   return (
     <div id="App" className={"AppContainer"}>
       <div>
-        <Navbar expand="lg" id="navBar" className={"w-100"} >
+        <Navbar expand="lg" id="navBar"  >
           <Navbar.Brand href="#"><span id="navLogo">MB</span></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggle" />
           <Navbar.Collapse id="basic-navbar-nav" className={"w-25"}>

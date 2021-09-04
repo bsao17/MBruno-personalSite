@@ -2,54 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="919d707c-7a95-42ed-b756-fd23a096197c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Site.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/aboutPage/afficahge.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/aboutPage/fantasy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/aboutPage/google.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/aboutPage/lego.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/aboutPage/panneaux.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/aboutPage/seo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/aboutPage/youtube-1684601_640.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/app-mobile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/carousel/app-mobile.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/copywriting.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/carousel/copywriting.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/carousel/copywriting.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/contact.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/contact.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/logo/mb.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/logo/mb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/selfiesBW.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/selfiesBW.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/sites/agency.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/sites/agency.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/sites/bikeRenting.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/sites/bikeRenting.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/sites/forteroche.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/sites/forteroche.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/sites/ireki.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/sites/ireki.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/sites/jmpm.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/sites/jmpm.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/social/Instagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/yellowAlone.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/yellowAlone.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/yellowWhite.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/yellowWhite.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TextSuite.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TextSuite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/Details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/Details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portfolio/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/Portfolio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/services/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/Services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/componenttSVG/BgAbout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componenttSVG/BgAbout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/componenttSVG/BgAbout.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/componenttSVG/BgAbout.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/dark.reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/light.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/about.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/app.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/app.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/component/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/component/TitlePage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/component/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/component/home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/component/navBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/component/navBar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +106,9 @@
       <workItem from="1627285016519" duration="4343000" />
       <workItem from="1627633246351" duration="13912000" />
       <workItem from="1629370674376" duration="11659000" />
-      <workItem from="1630230903291" duration="20231000" />
+      <workItem from="1630230903291" duration="26517000" />
+      <workItem from="1630435287276" duration="626000" />
+      <workItem from="1630778151396" duration="858000" />
     </task>
     <task id="LOCAL-00001" summary="update Portfolio.js, add portfolio.module.scss and modale with descriptions">
       <created>1626199485618</created>
@@ -186,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627291074684</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Optimize SEO &amp; Perf">
+      <created>1630422580344</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1630422580344</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +173,7 @@
     <MESSAGE value="Update Services.js" />
     <MESSAGE value="Update Footer.js, add logo and update responsive design" />
     <MESSAGE value="save gobal site before install dépendencie Facebook chat" />
-    <option name="LAST_COMMIT_MESSAGE" value="save gobal site before install dépendencie Facebook chat" />
+    <MESSAGE value="Optimize SEO &amp; Perf" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimize SEO &amp; Perf" />
   </component>
 </project>

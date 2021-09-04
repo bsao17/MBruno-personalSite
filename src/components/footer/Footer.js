@@ -7,13 +7,13 @@ export const Footer = () => {
             <div className={styleFooter.container}>
 
 {/* 3 Columns */}
-                <div className="row row-cols-2">
+                <div className="row row-cols-2 w-75">
                     <div className="d-flex flex-column justify-content-center align-items-center text-light pt-3">
                         <img src="images/logo/mb.png" className={styleFooter.logo} alt="Logo Mehddeb Bruno"/>
                         <code className="text-info ">v1.0.1</code>
                     </div>
-                    <div className="text-center text-light pt-3">
-                        <div className="fw-bold ">mehddebbruno.com <br/> <code className="text-info fw-light">freelance-developer</code>
+                    <div id={styleFooter.colRight} className="text-start text-light pt-3">
+                        <div className="fw-bold">mehddebbruno.com <br/> <code className="text-info fw-light">freelance-developer</code>
                         </div>
                         <div>
                             <span
