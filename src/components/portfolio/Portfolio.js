@@ -22,10 +22,10 @@ export default function Portfolio(props) {
 
                 <div
                     id={style.cardone}
-                    className="card col-lg-4 col-md-6 col-12 m-5 p-2 rounded-3"
+                    className="card border-0 col-lg-4 col-md-6 col-12 m-5 p-2 rounded-3"
                 >
                     <div className={style.definition}>
-                        <p>
+                        <p className={style.p}>
                             Voici un pure projet d'integration web,
                             cela signifie la reproduction à l'identique d'une maquette réalisée par un designer.
                             Ceci est le travail de base de tout développeur !
@@ -47,10 +47,10 @@ export default function Portfolio(props) {
                          alt="agency site"/>
                 </div>
                 <div
-                    className="card col-lg-4 col-md-6 col-12 m-5 p-2 rounded"
+                    className="card border-0 col-lg-4 col-md-6 col-12 m-5 p-2 rounded"
                 >
                     <div className={style.definition}>
-                        <p>
+                        <p className={style.p}>
                             L'objectif de celui-ci, est la réalisation d'une SPA pour single page application.
                             Le principe est assez simple en soit, le but étant comme son nom l'indique,
                             de créer une appliction monopage ou tout le code est chargé à la première ouverture du site
@@ -70,9 +70,9 @@ export default function Portfolio(props) {
                     </div>
                     <img src="images/sites/bikeRenting.jpg" className="w-100 rounded-bottom" alt="agency site"/>
                 </div>
-                <div className="card col-lg-4 col-md-6 col-12 m-5 p-2 rounded-3">
+                <div className="card border-0 col-lg-4 col-md-6 col-12 m-5 p-2 rounded-3">
                     <div className={style.definition}>
-                        <p>
+                        <p className={style.p}>
                             Voici la création du site de l'office de tourisme de la ville d'Ireki en Alaska, ne la
                             cherchez pas car elle n'existe pas, le but étant ici d'utiliser un CMS (content management
                             system), donc un système de gestion de contenu pour accélérer et faciliter la création.
@@ -95,9 +95,9 @@ export default function Portfolio(props) {
                         alt="agency site"
                     />
                 </div>
-                <div className="card col-lg-4 col-md-6 col-12 m-5 p-2 rounded-3">
+                <div className="card border-0 col-lg-4 col-md-6 col-12 m-5 p-2 rounded-3">
                     <div className={style.definition}>
-                        <p>
+                        <p className={style.p}>
                             Voici un projet en langage PHP pour le développement du site et mySQL pour la gestion de la
                             base de données. Ce site est celui de l'écrivain Jean Forteroche, qui écrit et distribue son
                             nouveau livre au fur et à mesure par l'intermédiaire de son blog
@@ -114,10 +114,10 @@ export default function Portfolio(props) {
                     </div>
                     <img src="images/sites/forteroche.jpg" className="w-100 rounded-bottom" alt="agency site"/>
                 </div>
-                <div className="card col-lg-4 col-md-6 col-12 m-5 p-2 rounded-3"
+                <div className="card border-0 col-lg-4 col-md-6 col-12 m-5 p-2 rounded-3"
                 >
                     <div className={style.definition}>
-                        <p>
+                        <p className={style.p}>
                             Et celui ci, est mon projet personnel.
                             Le titre en soit est assez claire ! Il vise à tordre le coup aux idées reçus,
                             comme quoi les développeurs juniors (donc débutants) seraient incapables de créer ou de
