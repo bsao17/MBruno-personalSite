@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="919d707c-7a95-42ed-b756-fd23a096197c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BigNavbar/BigNavBar.module.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/BigNavbar/BigNavbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BigNavbar/BigNavbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/services/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/Services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/services/services.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/services.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/component/navBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/component/navBar.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +96,7 @@
       <workItem from="1629370674376" duration="11659000" />
       <workItem from="1630230903291" duration="26517000" />
       <workItem from="1630435287276" duration="626000" />
-      <workItem from="1630778151396" duration="25419000" />
+      <workItem from="1630778151396" duration="25811000" />
     </task>
     <task id="LOCAL-00001" summary="update Portfolio.js, add portfolio.module.scss and modale with descriptions">
       <created>1626199485618</created>
@@ -167,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630860687652</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="change navBar on scroll">
+      <created>1631005125396</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1631005125396</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +185,7 @@
     <MESSAGE value="Optimize SEO &amp; Perf" />
     <MESSAGE value="Update performance and SEO" />
     <MESSAGE value="Create BigNavbar.js component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create BigNavbar.js component" />
+    <MESSAGE value="change navBar on scroll" />
+    <option name="LAST_COMMIT_MESSAGE" value="change navBar on scroll" />
   </component>
 </project>

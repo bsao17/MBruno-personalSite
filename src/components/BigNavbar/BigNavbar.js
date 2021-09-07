@@ -14,6 +14,7 @@ export default function BigNavBar (props){
            }else if(window.scrollY < 1){
                document.getElementById('navBar').style.backgroundColor="transparent"
                document.getElementById('navBar').style.height = "10%"
+               document.getElementById('navBar').style.transitionDuration = "1s"
            }
        })
     }
