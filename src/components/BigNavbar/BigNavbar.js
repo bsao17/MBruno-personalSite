@@ -1,13 +1,28 @@
-import React, {useState} from 'react';
-import styleNavBar from "./BigNavBar.module.scss"
+import React, {useEffect, useState} from 'react';
 import {Nav, Navbar} from "react-bootstrap";
 import {About, Contact, Home, Portfolio, WhoIAm, Services} from "../index";
+import {forEach} from "react-bootstrap/ElementChildren";
 
 export default function BigNavBar (props){
 
+    const scrollChange = ()=>{
+       window.addEventListener("scroll", ()=>{
+           if(window.scrollY > 0){
+               document.getElementById('navBar').style.backgroundColor="white"
+               document.getElementById('navBar').style.height = "5%"
+               console.log(window.scrollY)
+           }else if(window.scrollY < 1){
+               document.getElementById('navBar').style.backgroundColor="transparent"
+               document.getElementById('navBar').style.height = "10%"
+           }
+       })
+    }
+
+    useEffect(scrollChange, [window.scrollY])
+
     return (
         <div>
-            <Navbar expand="lg" id="navBar" >
+            <Navbar onToggle={()=>console.log("scroll right now !!!")} expand="lg" id="navBar"  >
                 <Navbar.Brand href="#"><span id="navLogo">MB</span></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggle" />
                 <Navbar.Collapse id="basic-navbar-nav" className={"w-25"}>
