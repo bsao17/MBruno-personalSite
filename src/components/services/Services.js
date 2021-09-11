@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import {Carousel} from "react-bootstrap";
-import {Footer} from "../footer/Footer";
-import TitlePage from "../TitlePage";
+import {TitlePage, Footer} from "../index";
 import serviceStyle from "./services.module.scss";
 
 export default class Services extends Component {

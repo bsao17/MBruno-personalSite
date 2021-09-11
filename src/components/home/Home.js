@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Particles from "react-particles-js";
-import { Footer } from "../footer/Footer";
+import { Footer } from "../index";
 
 
 export default function Home(props) {

@@ -1,7 +1,7 @@
 import React from "react";
 import Details from "./Details";
 import Map from "./Map";
-import {Footer} from "../footer/Footer";
+import {Footer} from "../index";
 import TitlePage from "../TitlePage";
 
 export default function Contact() {

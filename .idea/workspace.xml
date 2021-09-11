@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="919d707c-7a95-42ed-b756-fd23a096197c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/BigNavbar/BigNavbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BigNavbar/BigNavbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/services/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/Services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/whoIAm/WhoIAm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/whoIAm/WhoIAm.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +104,7 @@
       <workItem from="1629370674376" duration="11659000" />
       <workItem from="1630230903291" duration="26517000" />
       <workItem from="1630435287276" duration="626000" />
-      <workItem from="1630778151396" duration="25811000" />
+      <workItem from="1630778151396" duration="36236000" />
     </task>
     <task id="LOCAL-00001" summary="update Portfolio.js, add portfolio.module.scss and modale with descriptions">
       <created>1626199485618</created>
@@ -168,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631005125396</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="change navBar on scroll with transition">
+      <created>1631005618816</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1631005618816</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +201,7 @@
     <MESSAGE value="Update performance and SEO" />
     <MESSAGE value="Create BigNavbar.js component" />
     <MESSAGE value="change navBar on scroll" />
-    <option name="LAST_COMMIT_MESSAGE" value="change navBar on scroll" />
+    <MESSAGE value="change navBar on scroll with transition" />
+    <option name="LAST_COMMIT_MESSAGE" value="change navBar on scroll with transition" />
   </component>
 </project>

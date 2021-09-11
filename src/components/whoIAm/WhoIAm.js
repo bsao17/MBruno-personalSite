@@ -1,6 +1,7 @@
-import React, {Component} from 'react';
+import React from 'react';
+import {Footer} from "../index";
 
-export default function WhoIAm(props) {
+export default function WhoIAm (props) {
 
     return (
         <div>

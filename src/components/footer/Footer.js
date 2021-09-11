@@ -1,7 +1,7 @@
 import React from 'react'
 import styleFooter from './footer.module.scss'
 
-export const Footer = () => {
+export default function Footer(props){
     return (
         <div className={styleFooter.footer}>
             <div className={styleFooter.container}>

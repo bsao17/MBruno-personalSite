@@ -5,3 +5,5 @@ export {default as Contact} from "./contact/Contact";
 export {default as Portfolio} from "./portfolio/Portfolio";
 export {default as WhoIAm } from "./whoIAm/WhoIAm"
 export {default as BigNavBar} from "./BigNavbar/BigNavbar"
+export {default as TitlePage} from './TitlePage'
+export {default as Footer} from './footer/Footer'

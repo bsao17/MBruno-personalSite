@@ -1,7 +1,7 @@
 import React from 'react'
 import BgAbout from '../../componenttSVG/BgAbout'
 import style from './portfolio.module.scss'
-import {Footer} from "../footer/Footer";
+import {Footer} from "../index";
 import TitlePage from "../TitlePage";
 
 export default function Portfolio(props) {

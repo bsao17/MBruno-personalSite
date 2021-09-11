@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import BgAbout from "../../componenttSVG/BgAbout";
 import "aos/dist/aos.css";
 import TextSuite from "../TextSuite";
-import {Footer} from "../footer/Footer";
+import {Footer} from "../index";
 import TitlePage from "../TitlePage";
 import aboutStyle from "./about.module.scss"
 
