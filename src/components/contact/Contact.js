@@ -8,9 +8,6 @@ export default function Contact() {
 
   return (
     <>
-      <br />
-      <br />
-      <br />
         <TitlePage title={"Contact"}/>
       <div
         className="d-flex align-items-center justify-content-center flex-wrap"

@@ -1,20 +1,18 @@
 import React, {useEffect, useState} from 'react';
 import {Nav, Navbar} from "react-bootstrap";
-import {About, Contact, Home, Portfolio, WhoIAm, Services} from "../index";
-import {forEach} from "react-bootstrap/ElementChildren";
+import { About, Contact, Home, Portfolio, WhoIAm, Services} from "../index";
 
 export default function BigNavBar (props){
 
     const scrollChange = ()=>{
        window.addEventListener("scroll", ()=>{
            if(window.scrollY > 0){
-               document.getElementById('navBar').style.backgroundColor="white"
-               document.getElementById('navBar').style.height = "5%"
-               console.log(window.scrollY)
+               document.getElementById('navBar').style.backgroundColor="#efda5d"
+               document.getElementById('navBar').style.height = "7%"
            }else if(window.scrollY < 1){
                document.getElementById('navBar').style.backgroundColor="transparent"
                document.getElementById('navBar').style.height = "10%"
-               document.getElementById('navBar').style.transitionDuration = "1s"
+               document.getElementById('navBar').style.transitionDuration = "0.2s"
            }
        })
     }
@@ -33,7 +31,7 @@ export default function BigNavBar (props){
                         <Nav.Link onClick={()=>{props.component(<WhoIAm/>)}}><i className="fas fa-male"/> Qui Suis-je</Nav.Link>
                         <Nav.Link onClick={()=>{props.component(<Services/>)}}><i className="fas fa-network-wired"/> Services</Nav.Link>
                         <Nav.Link onClick={()=>{props.component(<Portfolio/>)}}><i className="fas fa-briefcase"/> Portfolio</Nav.Link>
-                        <Nav.Link href="https://mehddebbruno.blogspot.com/" ><i className="fab fa-wordpress"/> Blog</Nav.Link>
+                        <Nav.Link href="https://mehddebbruno.blogspot.com/" target={"blank"} ><i className="fab fa-wordpress"/> Blog</Nav.Link>
                         <Nav.Link href="https://declic62.systeme.io/securite-infos" target="blank">
                             <i className="fab fa-angellist"/> Bon plan
                         </Nav.Link>

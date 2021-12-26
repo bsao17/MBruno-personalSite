@@ -4,6 +4,9 @@ import React from 'react';
 function TitlePage(props) {
     return (
         <div>
+            <br/>
+            <br/>
+            <br/>
             <div className={"text-center text-dark"} id={"aboutTitle"}>
                 {props.title}
             </div>

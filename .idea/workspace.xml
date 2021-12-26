@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="919d707c-7a95-42ed-b756-fd23a096197c" name="Default Changelist" comment="">
+    <list default="true" id="919d707c-7a95-42ed-b756-fd23a096197c" name="Default Changelist" comment="update finition refactoring">
+      <change afterPath="$PROJECT_DIR$/public/images/logo/mb_BW.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/selfie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/textSuite/textSuite.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/whoIAm/whoIAm.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/BigNavbar/BigNavbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BigNavbar/BigNavbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TextSuite.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/textSuite/TextSuite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TitlePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TitlePage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/about/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/about.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/about.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/Contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/portfolio/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/Portfolio.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/services/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/Services.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/whoIAm/WhoIAm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/whoIAm/WhoIAm.js" afterDir="false" />
     </list>
@@ -47,13 +58,16 @@
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\decli\Desktop\MBruno-personalSite-main\Site\src\components\textSuite" />
       <recent name="C:\Users\decli\Desktop\MBruno-personalSite-main\Site\src\components\about" />
       <recent name="C:\Users\decli\Desktop\Site_devwebdino.com\MBruno-personalSite-main\src\components/footer" />
       <recent name="C:\Users\decli\Desktop\Site_devwebdino.com\MBruno-personalSite-main\src\components/portfolio" />
@@ -82,8 +96,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -104,7 +118,9 @@
       <workItem from="1629370674376" duration="11659000" />
       <workItem from="1630230903291" duration="26517000" />
       <workItem from="1630435287276" duration="626000" />
-      <workItem from="1630778151396" duration="36236000" />
+      <workItem from="1630778151396" duration="53251000" />
+      <workItem from="1631617655667" duration="1581000" />
+      <workItem from="1632932176430" duration="754000" />
     </task>
     <task id="LOCAL-00001" summary="update Portfolio.js, add portfolio.module.scss and modale with descriptions">
       <created>1626199485618</created>
@@ -183,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631005618816</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update finition refactoring">
+      <created>1631374102132</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1631374102132</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +225,7 @@
     <MESSAGE value="Create BigNavbar.js component" />
     <MESSAGE value="change navBar on scroll" />
     <MESSAGE value="change navBar on scroll with transition" />
-    <option name="LAST_COMMIT_MESSAGE" value="change navBar on scroll with transition" />
+    <MESSAGE value="update finition refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="update finition refactoring" />
   </component>
 </project>

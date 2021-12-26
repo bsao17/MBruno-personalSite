@@ -2,7 +2,13 @@
   position: relative;
   margin: 0;
 }
-
+.firstLetter{
+  color: #efda5d;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: black 0 0 2px;
+  margin-right: 2px;
+}
 #presentationText{
   text-align: left;
   font-size: 1.1vw;
@@ -13,6 +19,13 @@
   width: 10vw;
   float: left;
   border-radius: 15px;
+}
+.title{
+  color: #efda5d;
+  text-shadow: black 1px 1px 2px,
+  black -1px -1px 2px;
+  font-weight: bold;
+  margin: auto;
 }
 
 

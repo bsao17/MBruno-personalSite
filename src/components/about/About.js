@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import BgAbout from "../../componenttSVG/BgAbout";
 import "aos/dist/aos.css";
-import TextSuite from "../TextSuite";
+import TextSuite from "../textSuite/TextSuite";
 import {Footer} from "../index";
 import TitlePage from "../TitlePage";
 import aboutStyle from "./about.module.scss"
@@ -15,9 +15,6 @@ export default function About() {
       data-aos="flip-up"
       data-aos-easing="ease-out-cubic"
       data-aos-duration="2000">
-      <br className={"spacing"} />
-      <br className={"spacing"} />
-      <br className={"spacing"} />
       <div>
         <TitlePage title={"A propos"}/>
         <div
@@ -26,7 +23,7 @@ export default function About() {
           <div>
             <BgAbout />
             <img
-              src="images/selfiesBW.png"
+              src={"images/selfiesBW.png"}
               id={aboutStyle.selfie}
               className={"mx-3 shadow-lg"}
               data-aos="zoom-in"
@@ -35,19 +32,19 @@ export default function About() {
               alt=""
             />
             <div id={aboutStyle.presentaionText}>
-              <span className="h2 fw-bold">Salut à vous visiteurs.ses,</span>
+              <h2 className={aboutStyle.title}>Salut à vous visiteurs.ses,</h2>
               <br />
               <br />
-              <span id="firstLetter" className="h4 text-warning">S</span>i vous êtes en train de
+              <span className={aboutStyle.firstLetter}>S</span>i vous êtes en train de
               lire ceci, c’est qu'à priori jusqu’ici je n’ai pas trop mal fait mon
               travail,
               <br /> alors si vous le voulez bien essayons de continuer sur notre
               lancée.
               <br />
-              <br /> Dans la longue tradition du marchand, la règle de l’art était et est toujours,
+              <br />
+              <span className={aboutStyle.firstLetter}>D</span>ans la longue tradition du marchand, la règle de l’art était et est toujours,
               de dire ou d’écrire ce que l’auditeur/lecteur avait envie
               d’entendre ou lire,
-              <br />
               <br />
               Heureusement pour moi, je ne suis ni gourou, ni médium
               mais <strong>un développeur informatique</strong> spécialisé
@@ -55,24 +52,26 @@ export default function About() {
               réseaux sociaux (Facebook, Instagram, Twitch etc…) et qui
               <strong> manipule les mots</strong> plutôt correctement.
               <br />
-              <br /> Aujourd’hui, force est de constater, que si vous voulez que
+              <br />
+              <span className={aboutStyle.firstLetter}>A</span>ujourd’hui, force est de constater, que si vous voulez que
               <strong> votre entreprise</strong> ou votre commerce <strong>se développe </strong>, s’affranchisse des
               limites, s’ouvre au monde <strong>et prospère</strong>, alors c'est en grande partie
               <strong> derrière un clavier que cela va ce jouer</strong>.
               <br />
-              <br />Vous <strong>souvenez-vous</strong> de cette époque que les moins de 20 ans ne
+              Vous <strong>souvenez-vous</strong> de cette époque que les moins de 20 ans ne
               peuvent pas connaître, ces années ou lorsqu'on voulait créer un
               évènement, faire une promotion ou simplement informer de son existence,
               il fallait passer par des 4x3 sur les murs, de la pub radio, du
               mailing de boite voir de la pub télé...
               <br />
-              <br /> On <strong>se ruinait</strong> littéralement en attendant que “le sacro-saint
+              <br />
+              <span className={aboutStyle.firstLetter}>O</span>n <strong>se ruinait</strong> littéralement en attendant que “le sacro-saint
               bouche-à-oreille" daigne montrer le bout de son nez ! <br />
               <br />
               “Ce n’était <strong>pas simple</strong> quant même ... <br />
-              Mais le Darwinisme a fait son œuvre et <strong>tout a évolué</strong>”.
-              <br />
-              <br /> <strong>De nos jours</strong>, quand on veut acheter une voiture, réserver un
+              <br/>
+              <span className={aboutStyle.firstLetter}>M</span>ais le Darwinisme a fait son œuvre
+              <strong> et de nos jours</strong>, quand on veut acheter une voiture, réserver un
               vélib, appeler un taxi ou faire toiletter son hamster, c’est illico sur
                 son mobile ou son ordi qu’on se jette, et <strong>direction Google</strong>, car
               c’est bien connu, <strong>“Google est ton ami !”</strong>. <br />

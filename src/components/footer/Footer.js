@@ -9,7 +9,7 @@ export default function Footer(props){
 {/* 3 Columns */}
                 <div className="row row-cols-2 w-75">
                     <div className="d-flex flex-column justify-content-center align-items-center text-light pt-3">
-                        <img src="images/logo/mb.png" className={styleFooter.logo} alt="Logo Mehddeb Bruno"/>
+                        <img src={"images/logo/mb_BW.jpg"} className={styleFooter.logo} alt="Logo Mehddeb Bruno"/>
                         <code className="text-info ">v1.0.1</code>
                     </div>
                     <div id={styleFooter.colRight} className="text-start text-light pt-3">
