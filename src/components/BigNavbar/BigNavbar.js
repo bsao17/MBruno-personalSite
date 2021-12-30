@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect} from 'react';
 import {Nav, Navbar} from "react-bootstrap";
 import { About, Contact, Home, Portfolio, WhoIAm, Services} from "../index";
 
@@ -32,9 +32,6 @@ export default function BigNavBar (props){
                         <Nav.Link onClick={()=>{props.component(<Services/>)}}><i className="fas fa-network-wired"/> Services</Nav.Link>
                         <Nav.Link onClick={()=>{props.component(<Portfolio/>)}}><i className="fas fa-briefcase"/> Portfolio</Nav.Link>
                         <Nav.Link href="https://mehddebbruno.blogspot.com/" target={"blank"} ><i className="fab fa-wordpress"/> Blog</Nav.Link>
-                        <Nav.Link href="https://declic62.systeme.io/securite-infos" target="blank">
-                            <i className="fab fa-angellist"/> Bon plan
-                        </Nav.Link>
                         <Nav.Link onClick={()=>{props.component(<Contact/>)}}><i className="fas fa-address-book"/> Contactez-moi</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

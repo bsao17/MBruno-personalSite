@@ -1,10 +1,20 @@
-import React, { useState } from "react";
+import React, {useEffect, useState} from "react";
 import Particles from "react-particles-js";
 import { Footer } from "../index";
+import HappyNewYear from "../happyNewYear/HappyNewYear";
 
 
 export default function Home(props) {
   const [img] = useState("images/yellowWhite.png");
+  const [counter, setCounter] = useState(true);
+  console.log(counter)
+
+  useEffect(()=>{
+    setTimeout(()=>{
+      setCounter(false)
+    }, 5000)
+  }, [])
+
   return (
     <>
       <div id={"home"}>
@@ -37,20 +47,23 @@ export default function Home(props) {
         >
           <p id="firstname">Bruno</p>
           <p id="lastname" className={"lastname"}>MEHDDEB</p>
-          <div id="jingle" className="jingle text-dark">
+          {counter ? <HappyNewYear/> : (
+              <div id="jingle" className="jingle text-dark">
             <span id="activities" className={"card-xs"}>
-              Copywriting,
-              <br />
-              Optimisation SEO, <br />
               Développement Web,
+              <br />
+              Développement Mobile, <br />
+              Conception, réalisation, <br/>
+              Déploiement, mises à jour..
             </span>
-            <hr className="w-75" />
-            L'Architecte de vos
-            <span className={"text-warning text-md-light"} id={"ambition"}>
+                <hr className="w-75" />
+                L'Architecte de vos
+                <span className={"text-warning text-md-light"} id={"ambition"}>
               {" "}
-              Ambitions
+                  Ambitions
             </span>
-          </div>
+              </div>
+          )}
         </div>
         <img
           src={img}

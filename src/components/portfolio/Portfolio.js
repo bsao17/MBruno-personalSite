@@ -220,7 +220,9 @@ export default function Portfolio(props) {
             allowfullscreen
           ></iframe>
           <div className="text-center">
-            <a href="https://github.com/bsao17/casio_fx82_Python_PyQt5">Aller sur le repository Github</a>
+            <a href="https://github.com/bsao17/casio_fx82_Python_PyQt5">
+              Aller sur le repository Github
+            </a>
           </div>
         </div>
 
@@ -236,16 +238,18 @@ export default function Portfolio(props) {
             Application mobile réalisée avec React Native
           </div>
           <iframe
-            className="w-100"
-            height={"315"}
-            src="https://www.youtube.com/embed/ujyNQ3Bjg1c"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/WlrjjdBscD4"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
           <div className="text-center">
-            <a href="https://github.com/bsao17/MovieChoices">Aller sur le repository Github</a>
+            <a href="https://github.com/bsao17/MovieChoices">
+              Aller sur le repository Github
+            </a>
           </div>
         </div>
       </div>
