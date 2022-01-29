@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="919d707c-7a95-42ed-b756-fd23a096197c" name="Default Changelist" comment="update finition refactoring">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/happyNewYear/HappyNewYear.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/happyNewYear/happyNewYear.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="919d707c-7a95-42ed-b756-fd23a096197c" name="Default Changelist" comment="add HappyNewYear.js and update home style">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/BigNavbar/BigNavbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BigNavbar/BigNavbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/portfolio/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/Portfolio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/component/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/component/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/component/navBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/component/navBar.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +113,10 @@
       <workItem from="1630778151396" duration="53251000" />
       <workItem from="1631617655667" duration="1581000" />
       <workItem from="1632932176430" duration="754000" />
-      <workItem from="1640858391823" duration="7970000" />
+      <workItem from="1640858391823" duration="8113000" />
+      <workItem from="1640971372061" duration="798000" />
+      <workItem from="1640972191895" duration="9000" />
+      <workItem from="1643364647723" duration="17461000" />
     </task>
     <task id="LOCAL-00001" summary="update Portfolio.js, add portfolio.module.scss and modale with descriptions">
       <created>1626199485618</created>
@@ -203,11 +202,29 @@
       <option name="project" value="LOCAL" />
       <updated>1631374102132</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add HappyNewYear.js and update home style">
+      <created>1640868698165</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1640868698165</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_OTHER_BRANCHES" value="true" />
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -219,6 +236,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -234,6 +252,7 @@
     <MESSAGE value="change navBar on scroll" />
     <MESSAGE value="change navBar on scroll with transition" />
     <MESSAGE value="update finition refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="update finition refactoring" />
+    <MESSAGE value="add HappyNewYear.js and update home style" />
+    <option name="LAST_COMMIT_MESSAGE" value="add HappyNewYear.js and update home style" />
   </component>
 </project>
