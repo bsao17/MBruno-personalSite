@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="919d707c-7a95-42ed-b756-fd23a096197c" name="Default Changelist" comment="add HappyNewYear.js and update home style">
+    <list default="true" id="919d707c-7a95-42ed-b756-fd23a096197c" name="Default Changelist" comment="collapse navBar">
+      <change afterPath="$PROJECT_DIR$/src/components/BigNavbar/bigNavbar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Site.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Site.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/BigNavbar/BigNavbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BigNavbar/BigNavbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portfolio/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/Portfolio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/component/navBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/component/navBar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/whoIAm/WhoIAm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/whoIAm/WhoIAm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_settings.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +48,6 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
@@ -55,6 +59,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -116,7 +121,7 @@
       <workItem from="1640858391823" duration="8113000" />
       <workItem from="1640971372061" duration="798000" />
       <workItem from="1640972191895" duration="9000" />
-      <workItem from="1643364647723" duration="17461000" />
+      <workItem from="1643364647723" duration="26342000" />
     </task>
     <task id="LOCAL-00001" summary="update Portfolio.js, add portfolio.module.scss and modale with descriptions">
       <created>1626199485618</created>
@@ -209,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640868698165</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="collapse navBar">
+      <created>1643487873822</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1643487873822</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +265,7 @@
     <MESSAGE value="change navBar on scroll with transition" />
     <MESSAGE value="update finition refactoring" />
     <MESSAGE value="add HappyNewYear.js and update home style" />
-    <option name="LAST_COMMIT_MESSAGE" value="add HappyNewYear.js and update home style" />
+    <MESSAGE value="collapse navBar" />
+    <option name="LAST_COMMIT_MESSAGE" value="collapse navBar" />
   </component>
 </project>

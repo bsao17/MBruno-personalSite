@@ -3,7 +3,7 @@ import AOS from "aos";
 import React, {useState} from "react";
 import {useEffect} from "react";
 
-function App(props) {
+function App() {
     const [component, setComponent] = useState(<Home/>)
 
     const changeComponent = (C) => {
@@ -16,7 +16,7 @@ function App(props) {
 
     return (
         <div id="App" className={"AppContainer"}>
-            <BigNavBar component={changeComponent}/>
+            <BigNavBar components={changeComponent}/>
             <div>
                 {component}
             </div>
