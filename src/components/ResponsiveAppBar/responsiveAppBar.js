@@ -59,7 +59,7 @@
 //     );
 // }
 
-import * as React from 'react';
+import React, {useState} from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -68,49 +68,42 @@ import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import styles from './bigNavbar.module.scss'
+import {Link} from "@mui/material";
+import {About, Contact, Home, Portfolio, WhoIAm} from "../index";
 
-const pages = ['Products', 'Pricing', 'Blog'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const pages = ['Accueil', 'A propos', 'Qui suis-je', 'portfolio', 'blog', 'contact'];
 
-const ResponsiveAppBar = () => {
-    const [anchorElNav, setAnchorElNav] = React.useState(null);
-    const [anchorElUser, setAnchorElUser] = React.useState(null);
+const ResponsiveAppBar = ({components}) => {
+    const [handleComponent, setHandleComponent] = useState(<Home/>)
+    const [anchorElUser, setAnchorElUser] = useState(null);
 
     const handleOpenNavMenu = (event) => {
-        setAnchorElNav(event.currentTarget);
-    };
-    const handleOpenUserMenu = (event) => {
-        setAnchorElUser(event.currentTarget);
     };
 
     const handleCloseNavMenu = () => {
-        setAnchorElNav(null);
     };
 
-    const handleCloseUserMenu = () => {
-        setAnchorElUser(null);
-    };
+    // const handleCloseUserMenu = () => {
+    //     setAnchorElUser(null);
+    // };
 
     return (
         <AppBar position="static" className={styles.container}>
             <Container maxWidth="xl">
-                <Toolbar disableGutters >
+                <Toolbar disableGutters>
                     <Typography
                         variant="h6"
                         noWrap
-
                         component="div"
-                        sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
+                        sx={{mr: 2, display: {xs: 'none', md: 'flex'}}}
                     >
                         <img src="./images/logo/mb.png" style={{height: '4rem'}} alt="logo"/>
                     </Typography>
 
-                    <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+                    <Box sx={{flexGrow: 1, display: {xs: 'flex', md: 'none'}}}>
                         <IconButton
                             size="large"
                             aria-label="account of current user"
@@ -119,11 +112,11 @@ const ResponsiveAppBar = () => {
                             onClick={handleOpenNavMenu}
                             color="inherit"
                         >
-                            <MenuIcon />
+                            <MenuIcon/>
                         </IconButton>
                         <Menu
                             id="menu-appbar"
-                            anchorEl={anchorElNav}
+
                             anchorOrigin={{
                                 vertical: 'bottom',
                                 horizontal: 'left',
@@ -133,10 +126,10 @@ const ResponsiveAppBar = () => {
                                 vertical: 'top',
                                 horizontal: 'left',
                             }}
-                            open={Boolean(anchorElNav)}
+                            open={components(handleComponent)}
                             onClose={handleCloseNavMenu}
                             sx={{
-                                display: { xs: 'block', md: 'none' },
+                                display: {xs: 'block', md: 'none'},
                             }}
                         >
                             {pages.map((page) => (
@@ -151,21 +144,66 @@ const ResponsiveAppBar = () => {
                         variant="h6"
                         noWrap
                         component="div"
-                        sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
+                        sx={{flexGrow: 1, display: {xs: 'flex', md: 'none'}}}
                     >
-                        <img src="./images/logo/mb.png" style={{height: '4rem'}} alt="logo"/>
+                        <img src={"./images/logo/mb.png"} style={{height: '4rem'}} alt="logo"/>
                     </Typography>
 
-                    <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-                        {pages.map((page) => (
-                            <Button
-                                key={page}
-                                onClick={handleCloseNavMenu}
-                                sx={{ my: 2, color: 'white', display: 'block' }}
-                            >
-                                {page}
-                            </Button>
-                        ))}
+                    <Box sx={{flexGrow: 1, display: {xs: 'none', md: 'flex'}}}>
+                        <Link className={styles.links}
+                            onClick={() => {
+                                return setHandleComponent(<Home/>)
+                            }}
+                            sx={{my: 2, textDecoration: "none", color: 'white', display: 'block'}}
+                        >
+                            <i className="fas fa-home"/> Accueil
+                        </Link>
+
+                        <Link className={styles.links}
+                            onClick={() => {
+                                return setHandleComponent(<About/>)
+                            }}
+                            sx={{my: 2, textDecoration: "none", color: 'white', display: 'block'}}
+                        >
+                            A propos
+                        </Link>
+
+                        <Link className={styles.links}
+                              onClick={() => {
+                                  return setHandleComponent(<WhoIAm/>)
+                              }}
+                              sx={{my: 2, textDecoration: "none", color: 'white', display: 'block'}}
+                        >
+                            Qui suis-je
+                        </Link>
+
+                        <Link className={styles.links}
+                              open={true}
+                              onClick={() => {
+                                  return setHandleComponent(<Portfolio/>)
+                              }}
+                              sx={{my: 2, textDecoration: "none", color: 'white', display: 'block'}}
+                        >
+                            Portfolio
+                        </Link>
+
+                        <Link className={styles.links}
+                              href={"https://startergatsbyblog92382.gatsbyjs.io/"}
+                              target={"blank"}
+                              sx={{my: 2, textDecoration: "none", color: 'white', display: 'block'}}
+                        >
+                            Blog
+                        </Link>
+
+                        <Link className={styles.links}
+                              onClick={() => {
+                                  return setHandleComponent(<Contact/>)
+                              }}
+                              sx={{my: 2, textDecoration: "none", color: 'white', display: 'block'}}
+                        >
+                            Contact
+                        </Link>
+
                     </Box>
                 </Toolbar>
             </Container>

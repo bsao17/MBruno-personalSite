@@ -1,4 +1,4 @@
-import {Home, BigNavBar} from "./components";
+import {Home, ResponsiveAppBar} from "./components";
 import AOS from "aos";
 import React, {useState} from "react";
 import {useEffect} from "react";
@@ -16,7 +16,7 @@ function App() {
 
     return (
         <div id="App" className={"AppContainer"}>
-            <BigNavBar components={changeComponent}/>
+            <ResponsiveAppBar components={changeComponent}/>
             <div>
                 {component}
             </div>
