@@ -1,8 +1,8 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import {About, Contact, Home, Portfolio, WhoIAm, Services} from "../index";
-import styles from './responsiveAppBar.module.scss'
+import styles from './responsiveAppBarBottom.module.scss'
 
-export default function ResponsiveAppBar({components}) {
+export default function ResponsiveAppBarBottom({components}) {
     const [expanded, setExpanded] = useState(false);
 
     return (

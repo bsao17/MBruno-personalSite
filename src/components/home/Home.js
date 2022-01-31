@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from "react";
-import Particles from "react-particles-js";
 import { Footer } from "../index";
 import HappyNewYear from "../happyNewYear/HappyNewYear";
 
@@ -18,27 +17,6 @@ export default function Home(props) {
   return (
     <>
       <div id={"home"}>
-        <Particles
-          id="particles"
-          params={{
-            particles: {
-              number: {
-                value: 50,
-              },
-              size: {
-                value: 3,
-              },
-            },
-            interactivity: {
-              events: {
-                onhover: {
-                  enable: true,
-                  mode: "repulse",
-                },
-              },
-            },
-          }}
-        />
         <div
           id="title"
           className={"title"}
