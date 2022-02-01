@@ -3,7 +3,7 @@ import {About, Contact, Home, Portfolio, WhoIAm, Services} from "../index";
 import styles from './responsiveAppBar.module.scss'
 
 export default function ResponsiveAppBar({components}) {
-    const [expanded, setExpanded] = useState(false);
+    let [expanded, setExpanded] = useState(false);
 
     return (
         <div className={styles.container}>
