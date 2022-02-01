@@ -6,7 +6,7 @@ import HappyNewYear from "../happyNewYear/HappyNewYear";
 export default function Home(props) {
   // pass true for displaying happy new year
   const [counter, setCounter] = useState(false);
-  const [img] = useState("images/yellowWhite3.png");
+  const [img] = useState("images/yellowWhite.png");
 
   useEffect(()=>{
     setTimeout(()=>{
