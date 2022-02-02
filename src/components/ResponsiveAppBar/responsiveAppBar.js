@@ -26,7 +26,7 @@ export default function ResponsiveAppBar({components}) {
                                onClick={() => {
                                    setExpanded(false)
                                    components(<Home/>)
-                               }}>Home</a>
+                               }}>Accueil</a>
                             <a className="nav-link" id={styles.links} onClick={() => {
                                 setExpanded(false)
                                 components(<About/>)
@@ -34,7 +34,7 @@ export default function ResponsiveAppBar({components}) {
                             <a className="nav-link" id={styles.links} onClick={() => {
                                 setExpanded(false)
                                 components(<WhoIAm/>)
-                            }}>Qui suis-je</a>
+                            }}>A propos</a>
                             <a className="nav-link" id={styles.links} onClick={() => {
                                 setExpanded(false)
                                 components(<Services/>)
@@ -47,6 +47,7 @@ export default function ResponsiveAppBar({components}) {
                                 setExpanded(false)
                                 components(<Contact/>)
                             }}> Contact </a>
+                            <a href={"https://mehddebbruno.blogspot.com/"} className="nav-link" id={styles.links}> Blog </a>
                         </div>
                     </div>
                 </div>

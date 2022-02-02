@@ -1,29 +1,27 @@
-
 @media (max-width: 992px) {
-    .navlink{
-        background-color: white;
-        width: 200px;
-        //padding-left: 20px;
-        margin: 0;
-    }
+  .navlink {
+    background-color: white;
+    width: 200px;
+    //padding-left: 20px;
+    margin: 0;
+  }
 }
-    
 
-#navBar{
-    position: fixed;
-    display: flex;
-    justify-content: flex-end;
-    padding-left: 10px;
-    width: 100%;
-    background-color: transparent;
-    height: 10%;
-    font-size: large;
-    z-index: 999;
-    
+#navBar {
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 10px;
+  width: 100%;
+  background-color: transparent;
+  height: 10%;
+  font-size: large;
+  z-index: 999;
 }
-#navLogo{
-    // font-family: 'Mrs Sheppards', cursive;
-    font-family: 'Arizonia', cursive;
-    font-size: xx-large;
+
+#navLogo {
+  // font-family: 'Mrs Sheppards', cursive;
+  font-family: 'Arizonia', cursive;
+  font-size: xx-large;
 }
 

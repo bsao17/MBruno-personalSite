@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="919d707c-7a95-42ed-b756-fd23a096197c" name="Default Changelist" comment="new navigationBar, design landingPage">
+    <list default="true" id="919d707c-7a95-42ed-b756-fd23a096197c" name="Default Changelist" comment="update background image">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ResponsiveAppBar/responsiveAppBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ResponsiveAppBar/responsiveAppBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_settings.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/app.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/app.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/component/TitlePage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/component/TitlePage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/component/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/component/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/component/navBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/component/navBar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/component/services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/component/services.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +131,8 @@
       <workItem from="1640972191895" duration="9000" />
       <workItem from="1643364647723" duration="44901000" />
       <workItem from="1643651096828" duration="1577000" />
-      <workItem from="1643652727092" duration="8914000" />
+      <workItem from="1643652727092" duration="12192000" />
+      <workItem from="1643732079555" duration="5182000" />
     </task>
     <task id="LOCAL-00001" summary="update Portfolio.js, add portfolio.module.scss and modale with descriptions">
       <created>1626199485618</created>
@@ -248,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643708299945</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="update background image">
+      <created>1643713736611</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1643713736611</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,6 +316,7 @@
     <MESSAGE value="config navigation component" />
     <MESSAGE value="clean code, remove deprecated dependenceies, remove react-particles.js" />
     <MESSAGE value="new navigationBar, design landingPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="new navigationBar, design landingPage" />
+    <MESSAGE value="update background image" />
+    <option name="LAST_COMMIT_MESSAGE" value="update background image" />
   </component>
 </project>
