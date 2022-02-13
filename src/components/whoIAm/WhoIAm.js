@@ -13,7 +13,7 @@ export default function WhoIAm (props) {
         >
             <BgAbout />
             <TitlePage title={"Qui suis-je"} />
-            <div className={"container card card-body"}>
+            <div className={"container card card-body m-auto"}>
                 <h2 className={whoIAm.title}>Nous-y voilà, qui suis-je ...</h2>
                 <section>
                     <hr className={"w-50 m-auto mt-5 mb-5"}/>

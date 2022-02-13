@@ -76,7 +76,7 @@ export default function About() {
                 son mobile ou son ordi qu’on se jette, et <strong>direction Google</strong>, car
               c’est bien connu, <strong>“Google est ton ami !”</strong>. <br />
               <br />
-              <img src="images/aboutPage/google.png" className={"w-50 d-block m-auto"} alt="Logo de Google"/>
+              <img src={"images/aboutPage/google.png"} className={"w-50 d-block m-auto"} alt="Logo de Google"/>
               <br/>
               <h2 className={aboutStyle.rules}>Mais au fait, c’est quoi <strong className={'text-primary'}>Google</strong> ? </h2><br />
               <br />

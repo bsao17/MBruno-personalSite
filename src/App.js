@@ -1,9 +1,9 @@
-import {Home, BigNavBar} from "./components";
+import {Home, ResponsiveAppBar} from "./components";
 import AOS from "aos";
-import React, {useState} from "react";
-import {useEffect} from "react";
+import React, {useState, useEffect} from "react";
 
-function App(props) {
+
+function App() {
     const [component, setComponent] = useState(<Home/>)
 
     const changeComponent = (C) => {
@@ -16,7 +16,7 @@ function App(props) {
 
     return (
         <div id="App" className={"AppContainer"}>
-            <BigNavBar component={changeComponent}/>
+            <ResponsiveAppBar components={changeComponent}/>
             <div>
                 {component}
             </div>

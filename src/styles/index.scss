@@ -1,4 +1,3 @@
-
 @import './settings';
 @import './component/navBar.scss';
 @import './component/home.scss';
@@ -7,3 +6,6 @@
 @import './component/contact/details.scss';
 @import './component/services.scss';
 
+html {
+  width: 100%;
+}
