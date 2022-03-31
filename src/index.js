@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import './styles/index.scss';
 import ReactGA from "react-ga"
+import "./index.scss"
 
 
 
