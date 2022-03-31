@@ -1,6 +1,7 @@
 #about{
   position: relative;
   margin: 0;
+  z-index: 0;
 }
 .firstLetter{
   color: #efda5d;
@@ -12,7 +13,6 @@
 #presentationText{
   text-align: left;
   font-size: 1.1vw;
-  z-index: 999;
 }
 
 #selfie{

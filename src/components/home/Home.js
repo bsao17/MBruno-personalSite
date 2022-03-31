@@ -13,11 +13,11 @@ export default function Home() {
     const [img] = useState("images/yellowWhite.png");
 
 
-    useEffect(() => {
-        setTimeout(() => {
-            setCounter(false)
-        }, 5000)
-    }, [])
+    // useEffect(() => {
+    //     setTimeout(() => {
+    //         setCounter(false)
+    //     }, 5000)
+    // }, [])
 
     return (
         <div>

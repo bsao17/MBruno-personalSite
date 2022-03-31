@@ -1,7 +1,7 @@
 import React from "react";
-import {render, unmountComponentAtNode} from "react-dom";
+import {unmountComponentAtNode} from "react-dom";
 import {act} from "react-dom/test-utils";
-import Home from "./Home";
+import {getByText, getByTestId} from "@testing-library/react";
 
 let container = null;
 beforeEach(() => {
@@ -17,10 +17,9 @@ afterEach(() => {
     container = null;
 });
 
+const home = document.getElementById("home")
 
-test.only("should testing text MEHDDEB exist to home.js", () => {
-    act(() => {
-        render(<Home/>, container)
-    })
-    expect(container.textContent).toBe("MEHDDEB")
+it("should verify home id exist", ()=>{
+    // eslint-disable-next-line jest/valid-expect
+    expect(home)
 })

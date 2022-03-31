@@ -10,6 +10,7 @@
     "aos": "^3.0.0-beta.6",
     "bootstrap": "^5.0.1",
     "google-map-react": "^2.1.10",
+    "gsap": "^3.10.1",
     "node-sass": "^4.14.1",
     "particles.js": "^2.0.0",
     "react": "^16.14.0",
