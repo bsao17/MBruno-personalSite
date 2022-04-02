@@ -11,7 +11,7 @@ export default function Navigation() {
     console.log(responsiveMenu)
     return (
         <Router>
-            <div className={responsiveMenu ? styles.closed : styles.closedShow} onClick={mobileMenuShow}>X</div>
+            <h1 className={responsiveMenu ? styles.closed : styles.closedShow} onClick={mobileMenuShow}>✕</h1>
             <div className={responsiveMenu ? styles.button : styles.buttonShow} onClick={mobileMenuShow}>
                 <div className={styles.trait}/>
                 <div className={styles.trait}/>

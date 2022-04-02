@@ -12,11 +12,11 @@
       transform: translateY(100%) !important;
       list-style: none !important;
       position: fixed;
-      top: -100px;
+      top: -150px;
       left: 30px;
       border: solid black 1px !important;
       background-color: #fff !important;
-      padding: 1% !important;
+      padding: 2% !important;
       border-radius: 5px !important;
       font-family: "Shrikhand", cursive;
     }
@@ -28,10 +28,19 @@
     }
     .closedShow {
       display: block !important;
+
       position: fixed !important;
       top: 30px !important;
       right: 30px !important;
+      padding: 5px !important;
+      border-radius: 25% !important;
+      background-color: rgba(221, 0, 0, 0.68);
+      font-weight: bold !important;
       z-index: 999999 !important;
+    }
+    li {
+      margin-bottom: 5px !important;
+      margin-right: 5px !important;
     }
   }
 }
