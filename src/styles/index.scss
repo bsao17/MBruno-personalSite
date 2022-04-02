@@ -1,11 +1,23 @@
 @import './settings';
 @import './component/navBar.scss';
 @import './component/home.scss';
-@import './app.module.scss';
 @import 'component/TitlePage';
 @import './component/contact/details.scss';
 @import './component/services.scss';
 
 html {
   width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:active {
+  color: #000;
+  text-decoration: none;
 }

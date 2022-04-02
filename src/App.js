@@ -1,11 +1,28 @@
-import React, {useEffect} from "react";
-import {About, Contact, Home, Portfolio, WhoIAm} from "./components";
+import React, {useEffect, useState} from "react";
 import AOS from "aos";
-import {BrowserRouter as Router, Route, Switch, Link} from "react-router-dom";
 import Navigation from "./components/navigation/Navigation";
+import styles from "./components/navigation/navigation.module.scss";
 
+const comeBackUp = {
+    width: "50px",
+    height: "50px",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "white",
+    border: "solid white 2px",
+    borderRadius: "50%",
+    position: "fixed",
+    bottom: "20px",
+    right: "20px",
+    cursor: "pointer",
+    zIndex: "10000"
+}
 
 function App() {
+    const ascend = () => {
+        window.scroll(0, 0)
+    }
 
     useEffect(() => {
         AOS.init()
@@ -14,6 +31,7 @@ function App() {
     return (
         <div>
             <Navigation/>
+            <div onClick={ascend} style={comeBackUp}>Up</div>
         </div>
     );
 }

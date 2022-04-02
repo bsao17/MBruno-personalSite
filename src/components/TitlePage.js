@@ -1,9 +1,12 @@
 import React from 'react';
 
+const container = {
+    width: "100vw"
+}
 
 function TitlePage(props) {
     return (
-        <div>
+        <div style={container}>
             <br/>
             <br/>
             <br/>

@@ -1,26 +1,37 @@
-#about{
+@import "../../mixins/aboutMobile";
+@include aboutMobile;
+
+#container {
+  width: 100%;
   position: relative;
   margin: 0;
   z-index: 0;
 }
-.firstLetter{
+.globalText {
+  width: 100%;
+}
+
+.firstLetter {
   color: #efda5d;
   font-size: 2rem;
   font-weight: bold;
   text-shadow: black 0 0 2px;
   margin-right: 2px;
 }
-#presentationText{
+
+#presentationText {
+  width: 100%;
   text-align: left;
   font-size: 1.1vw;
 }
 
-#selfie{
+#selfie {
   width: 10vw;
   float: left;
   border-radius: 15px;
 }
-.title{
+
+.title {
   color: #efda5d;
   text-shadow: black 1px 1px 2px,
   black -1px -1px 2px;
