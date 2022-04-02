@@ -10,12 +10,15 @@ export default function Navigation() {
     const mobileMenuShow = () => {
         setResponsiveMenu(!responsiveMenu)
     }
+
     React.useEffect(()=>{
-        if(responsiveMenu === false){
-            gsap.to(modaleMenu.current, {translateY: "100%"})
-        }
-        else if(responsiveMenu){
-            gsap.to(modaleMenu.current, {translateY: "-100%"})
+        if (window.matchMedia("(max-width: 600px)").matches) {
+            if(responsiveMenu === false){
+                gsap.to(modaleMenu.current, {translateY: "100%"})
+            }
+            else if(responsiveMenu){
+                gsap.to(modaleMenu.current, {translateY: "-100%"})
+            }
         }
     }, [responsiveMenu])
 

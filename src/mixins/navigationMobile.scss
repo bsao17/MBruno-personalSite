@@ -3,13 +3,12 @@
     .navLink {
       display: flex !important;
       flex-direction: column !important;
-      transform: translateY(-100%) !important;
       padding: 20px !important;
       list-style: none !important;
       font-family: "Shrikhand", cursive;
+      opacity: 0 !important;
     }
     .navLinkShow {
-      //transform: translateY(100%) !important;
       list-style: none !important;
       position: fixed;
       top: -150px;
