@@ -8,8 +8,30 @@
       list-style: none !important;
       font-family: "Shrikhand", cursive;
     }
+    .navLinkShow {
+      transform: translateY(100%) !important;
+      list-style: none !important;
+      position: fixed;
+      top: -100px;
+      left: 30px;
+      border: solid black 1px !important;
+      background-color: #fff !important;
+      padding: 1% !important;
+      border-radius: 5px !important;
+      font-family: "Shrikhand", cursive;
+    }
     .button {
         display: block !important;
+    }
+    .buttonShow {
+      display: none !important;
+    }
+    .closedShow {
+      display: block !important;
+      position: fixed !important;
+      top: 30px !important;
+      right: 30px !important;
+      z-index: 999999 !important;
     }
   }
 }

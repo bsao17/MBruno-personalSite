@@ -19,6 +19,12 @@
   left: 0;
   z-index: 10;
 }
+.closed {
+  display: none;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+}
 .navLink {
   display: flex;
   justify-content: space-around;
@@ -27,6 +33,7 @@
   list-style: none;
   font-family: "Shrikhand", cursive;
 }
+
 li {
   color: #000000;
 }
