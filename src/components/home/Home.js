@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from "react";
 import {Footer} from "../index";
 import HappyNewYear from "../happyNewYear/HappyNewYear";
+import styles from "./home.module.scss"
 
 //just for the testing home.test.js
 export function sum(a, b) {
@@ -13,26 +14,25 @@ export default function Home() {
     const [img] = useState("images/yellowWhite.png");
 
 
-    // useEffect(() => {
-    //     setTimeout(() => {
-    //         setCounter(false)
-    //     }, 5000)
-    // }, [])
+    useEffect(() => {
+        setTimeout(() => {
+            setCounter(false)
+        }, 5000)
+    }, [])
 
     return (
         <div>
-            <div id={"home"}>
+            <div id={styles.home}>
                 <div
-                    id="title"
-                    className={"title"}
+                    id={styles.title}
                     data-aos="fade-right"
                     data-aos-anchor-placement="top-bottom"
                 >
-                    <p id="firstname">Bruno</p>
-                    <p id="lastname" className={"lastname"}>MEHDDEB</p>
+                    <p id={styles.firstname}>Bruno</p>
+                    <p id={styles.lastname} >MEHDDEB</p>
                     {counter ? <HappyNewYear/> : (
-                        <div id="jingle" className="jingle text-dark">
-                <span id="activities" className={"card-xs"}>
+                        <div id={styles.jingle} className="jingle text-dark">
+                <span id={styles.activities} className={"card-xs"}>
                   Développement Web,
                   <br/>
                   Développement Mobile, <br/>
@@ -41,7 +41,7 @@ export default function Home() {
                 </span>
                             <hr className="w-75"/>
                             L'Architecte de vos
-                            <span className={"text-warning text-md-light"} id={"ambition"}>
+                            <span className={"text-warning text-md-light"} id={styles.ambition}>
                   {" "}
                                 Ambitions
                 </span>
@@ -51,7 +51,7 @@ export default function Home() {
                 <img
                     src={img}
                     alt="Création de sites internets et d'applications mobiles en Charente maritime et Nouvelle Aqquitaine"
-                    id="background"
+                    id={styles.background}
                     className="d-xl-block d-lg-block d-none"
                 />
             </div>

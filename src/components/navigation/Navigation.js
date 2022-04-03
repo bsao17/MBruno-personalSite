@@ -11,12 +11,11 @@ export default function Navigation() {
         setResponsiveMenu(!responsiveMenu)
     }
 
-    React.useEffect(()=>{
+    React.useEffect(() => {
         if (window.matchMedia("(max-width: 600px)").matches) {
-            if(responsiveMenu === false){
+            if (responsiveMenu === false) {
                 gsap.to(modaleMenu.current, {translateY: "100%"})
-            }
-            else if(responsiveMenu){
+            } else {
                 gsap.to(modaleMenu.current, {translateY: "-100%"})
             }
         }
@@ -32,7 +31,7 @@ export default function Navigation() {
             </div>
             <div className={styles.container}>
                 <ul ref={modaleMenu} className={responsiveMenu ? styles.navLink : styles.navLinkShow}>
-                    <li><Link to={"/"}>Accueil</Link></li>
+                    <li><Link to={"/"}><h2>🛖</h2></Link></li>
                     <li><Link to={"/about"}>A propos</Link></li>
                     <li><Link to={"/whoiam"}>Qui suis-je</Link></li>
                     <li><Link to={"/portfolio"}>Portfolio</Link></li>

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const container = {
-    width: "100vw"
+    width: "100%"
 }
 
 function TitlePage(props) {

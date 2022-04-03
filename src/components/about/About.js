@@ -18,7 +18,7 @@ export default function About() {
       <div className={styles.globalText}>
         <TitlePage title={"A propos"}/>
         <div
-          className={" p-3 rounded bg-light"}
+          className={"container p-3 rounded bg-light"}
         >
           <div>
             <div className={styles.svg}>
